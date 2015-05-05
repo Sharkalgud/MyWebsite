@@ -2,9 +2,62 @@ h1{
 	text-align:center;
 	color: #add4d6;
 	font-family: Copperplate Gothic Light;
+	z-index:1;
+}
+body{
+	border: 1px dashed blue;
+	margin: -2px -2px -2px -2px;
+}
+.parent{
+	height:300px;
+}
+.child{
+	width:50%;
+	height:300px;
+    /*display: inline-block;*/
 }
 #facebook{
-	background-color: #e39088;
-	width:50%;
-	height:100px;
+	background-color: #3B5998;
+	float:left;
 }
+#github{
+	background-color: black;
+	float:right;
+}
+#resume{
+	background-color: #33CC33;
+	float:left;
+}
+#linkedin{
+	background-color: #FFFF33;
+	float:right;
+}
+
+/*div{
+    border: 2px dashed black;
+    border-radius: 5px;
+}
+#header{
+    height:50px;
+    width:400px;
+    background-color:#0066FF;
+    position: fixed;
+    z-index:1;
+}
+.left{
+    height:400px;
+    width:30%;
+    background-color: #66FF33;
+    float:left;
+}
+.right{
+    height: 400px;
+    width: 65%;
+    background-color: #FF6666;
+    float:right;
+}
+#footer{
+    height: 50px;
+    background-color: #0066FF;
+    clear:both;
+}*/
