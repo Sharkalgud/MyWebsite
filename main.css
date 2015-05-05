@@ -9,20 +9,26 @@ body{
 	margin: -2px -2px -2px -2px;
 }
 .parent{
-	height:300px;
+	height:50%;
 }
 .child{
-	width:50%;
+	/*width:50%;
 	height:300px;
-    /*display: inline-block;*/
+    display: inline-block;*/
 }
 #facebook{
 	background-color: #3B5998;
-	float:left;
+	/*float:left;*/
+	position: absolute; top: 0; left: 0; height: 50%; width: 50%;
 }
 #github{
 	background-color: black;
+	border: 1px dashed blue;
+	
+	top:0;
 	float:right;
+	height:100%;
+	width:50%;
 }
 #resume{
 	background-color: #33CC33;
