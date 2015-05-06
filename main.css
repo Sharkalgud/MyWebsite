@@ -1,42 +1,48 @@
 h1{
 	text-align:center;
+	line-height: 15em;
 	color: #add4d6;
 	font-family: Copperplate Gothic Light;
-	z-index:1;
+	z-index: -1;
+	vertical-align: middle;
+}
+img{
+	z-index: 100;
 }
 body{
-	border: 1px dashed blue;
-	margin: -2px -2px -2px -2px;
+	background-color: pink;
+	align:center;
 }
 .parent{
 	height:50%;
 }
 .child{
-	/*width:50%;
-	height:300px;
-    display: inline-block;*/
+	position: absolute;
+	height:50%; 
+	width:50%;
+	border-radius:10px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
 }
 #facebook{
-	background-color: #3B5998;
-	/*float:left;*/
-	position: absolute; top: 0; left: 0; height: 50%; width: 50%;
+	/*background-color: #3B5998;*/ 
+	top: 0; 
+	left: 0; 
 }
 #github{
-	background-color: black;
-	border: 1px dashed blue;
-	
+	/*background-color: black;*/
 	top:0;
-	float:right;
-	height:100%;
-	width:50%;
+	right:0;
 }
 #resume{
-	background-color: #33CC33;
-	float:left;
+	/*background-color: #33CC33;*/
+	bottom:0;
+	left:0;
 }
 #linkedin{
-	background-color: #FFFF33;
-	float:right;
+	/*background-color: #FFFF33;*/
+	bottom:0;
+	right:0;
 }
 
 /*div{
