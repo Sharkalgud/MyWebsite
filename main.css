@@ -15,9 +15,6 @@ body{
 	background-size: cover;
 	/*border: -1em -1em -1em -1em;*/
 }
-img{
-	position: relative;
-}
 .parent{
 	height:50%;
 }
