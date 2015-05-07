@@ -1,17 +1,22 @@
 h1{
 	text-align:center;
-	line-height: 15em;
-	color: #add4d6;
+	line-height: 20em;
+	color: white;
 	font-family: Copperplate Gothic Light;
 	z-index: -1;
 	vertical-align: middle;
 }
-img{
-	z-index: 100;
-}
 body{
-	background-color: pink;
+	/*background-color: pink;*/
 	align:center;
+	background-image: url("Background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*border: -1em -1em -1em -1em;*/
+}
+img{
+	position: relative;
 }
 .parent{
 	height:50%;
@@ -20,12 +25,14 @@ body{
 	position: absolute;
 	height:50%; 
 	width:50%;
-	border-radius:10px;
+	/*border-radius:10px;*/
 	opacity: 0.4;
 	filter: alpha(opacity=40);
+	background-color: #3B5998;
+	/*border: 1px dashed white;*/
 }
 #facebook{
-	/*background-color: #3B5998;*/ 
+	/*background-color: #3B5998; */
 	top: 0; 
 	left: 0; 
 }
@@ -43,6 +50,11 @@ body{
 	/*background-color: #FFFF33;*/
 	bottom:0;
 	right:0;
+}
+#facebook img{
+	width: 200px;
+	height:200px;
+	margin-left: 50px;
 }
 
 /*div{
