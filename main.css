@@ -1,24 +1,45 @@
 h1{
 	text-align:center;
-	line-height: 20em;
+	/*line-height: 20em;*/
 	color: white;
 	font-family: Copperplate Gothic Light;
-	z-index: -1;
 	vertical-align: middle;
+	position:relative;
 }
 body{
 	/*background-color: pink;*/
-	align:center;
+	/*align:center;
 	background-image: url("Background.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+*/
 	/*border: -1em -1em -1em -1em;*/
 }
+.head{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	z-index:300;
+	vertical-align: middle;
+}
+.background img{
+	position:relative;
+	height:100%;
+	width:100%;
+}
+.background{
+	top:0;
+	left: 0;
+	position:absolute;
+	z-index: -1;
+	height:100%;
+	width:100%;
+}
 .parent{
-	height:50%;
 }
 .child{
+	z-index: 2;
 	position: absolute;
 	height:50%; 
 	width:50%;
