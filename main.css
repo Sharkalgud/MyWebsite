@@ -1,10 +1,11 @@
-h1{
+p{
 	text-align:center;
 	/*line-height: 20em;*/
 	color: white;
 	font-family: Copperplate Gothic Light;
 	vertical-align: middle;
 	position:relative;
+	font-size: 100px;
 }
 body{
 	/*background-color: pink;*/
@@ -17,11 +18,13 @@ body{
 	/*border: -1em -1em -1em -1em;*/
 }
 .head{
-	position: relative;
+	position: absolute;
 	margin-right: auto;
 	margin-left: auto;
+	left:16%;
+	top:20%;
 	z-index:300;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 }
 .background img{
 	position:relative;
@@ -47,7 +50,7 @@ body{
 	opacity: 0.4;
 	filter: alpha(opacity=40);
 	background-color: #3B5998;
-	/*border: 1px dashed white;*/
+	border: 1px dashed white;
 }
 #facebook{
 	/*background-color: #3B5998; */
@@ -70,9 +73,10 @@ body{
 	right:0;
 }
 #facebook img{
+	position: absolute;
 	width: 200px;
 	height:200px;
-	margin-left: 50px;
+	left: 35%;
 }
 
 /*div{
