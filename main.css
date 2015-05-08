@@ -77,8 +77,22 @@ body{
 	width: 200px;
 	height:200px;
 	left: 35%;
+	top: 15%;
 }
-
+#github img{
+	position: absolute;
+	width: 200px;
+	height:200px;
+	left: 35%;
+	top: 15%;
+}
+#resume img{
+	position: absolute;
+	width: 200px;
+	height:200px;
+	left: 35%;
+	top: 15%;
+}
 /*div{
     border: 2px dashed black;
     border-radius: 5px;
