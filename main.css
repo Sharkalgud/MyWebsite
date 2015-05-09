@@ -3,9 +3,17 @@ p{
 	/*line-height: 20em;*/
 	color: white;
 	font-family: Copperplate Gothic Light;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+	margin-bottom: -1px;
 	position:relative;
 	font-size: 100px;
+}
+h1{
+	position: relative;
+	text-align: center;
+	margin: -1px 0px 0px -1px;
+	color: white;
+	font-family: Copperplate Gothic Light;	
 }
 body{
 	/*background-color: pink;*/
@@ -22,7 +30,7 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	left:16%;
-	top:20%;
+	top:25%;
 	z-index:300;
 	/*vertical-align: middle;*/
 }
@@ -50,7 +58,12 @@ body{
 	opacity: 0.4;
 	filter: alpha(opacity=40);
 	background-color: #3B5998;
-	border: 1px dashed white;
+	/*border: 1px dashed white;*/
+}
+.child:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=40);
+	background-color: #3B5998;
 }
 #facebook{
 	/*background-color: #3B5998; */
@@ -82,11 +95,18 @@ body{
 #github img{
 	position: absolute;
 	width: 200px;
-	height:200px;
+	height:180px;
 	left: 35%;
 	top: 15%;
 }
 #resume img{
+	position: absolute;
+	width: 200px;
+	height:200px;
+	left: 35%;
+	top: 20%;
+}
+#linkedin img{
 	position: absolute;
 	width: 200px;
 	height:200px;
