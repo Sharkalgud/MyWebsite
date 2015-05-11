@@ -24,15 +24,15 @@ body{
 	background-size: cover;
 */
 	/*border: -1em -1em -1em -1em;*/
+
 }
 .head{
-	position: absolute;
-	margin-right: auto;
-	margin-left: auto;
-	left:16%;
-	top:25%;
+	/*position: absolute;*/
+	 position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	z-index:300;
-	/*vertical-align: middle;*/
 }
 .background img{
 	position:relative;
@@ -86,32 +86,36 @@ body{
 	right:0;
 }
 #facebook img{
-	position: absolute;
 	width: 200px;
 	height:200px;
-	left: 35%;
-	top: 15%;
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 #github img{
 	position: absolute;
 	width: 200px;
 	height:180px;
-	left: 35%;
-	top: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #resume img{
 	position: absolute;
 	width: 200px;
 	height:200px;
-	left: 35%;
-	top: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #linkedin img{
 	position: absolute;
 	width: 200px;
 	height:200px;
-	left: 35%;
-	top: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /*div{
     border: 2px dashed black;
