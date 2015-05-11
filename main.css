@@ -1,4 +1,4 @@
-p{
+#title{
 	text-align:center;
 	/*line-height: 20em;*/
 	color: white;
@@ -8,11 +8,12 @@ p{
 	position:relative;
 	font-size: 100px;
 }
-h1{
+#header{
 	position: relative;
 	text-align: center;
 	margin: -1px 0px 0px -1px;
 	color: white;
+	font-size: 30px;
 	font-family: Copperplate Gothic Light;	
 }
 body{
@@ -31,10 +32,9 @@ body{
 }
 .head{
 	position: absolute;
-	margin-right: auto;
-	margin-left: auto;
-	left:16%;
-	top:25%;
+  	top: 50%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
 	z-index:300;
 	/*vertical-align: middle;*/
 }
@@ -93,29 +93,33 @@ body{
 	position: absolute;
 	width: 200px;
 	height:200px;
-	left: 35%;
-	top: 15%;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 #github img{
 	position: absolute;
 	width: 200px;
 	height:180px;
-	left: 35%;
-	top: 15%;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 #resume img{
 	position: absolute;
 	width: 200px;
 	height:200px;
-	left: 35%;
-	top: 20%;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 #linkedin img{
 	position: absolute;
 	width: 200px;
 	height:200px;
-	left: 35%;
-	top: 15%;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 /*div{
     border: 2px dashed black;
